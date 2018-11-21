@@ -13,6 +13,8 @@ $(document).ready(function () {
         $.get(`/datadog/select.php?nombre=${nombre}&apellido=${apellido}`)
             .then(function (data) {
 
+                $("#verificar_voluntario").modal("hide")
+
                 if (data == 1) {
 
                     $.notify("Eres Voluntario")
@@ -26,7 +28,6 @@ $(document).ready(function () {
     })
 
     $("#registrar").click(function () {
-
         var name = $('#firstName').val()
         var lastname = $('#lastName').val()
         var email = $('#email').val()
@@ -34,7 +35,15 @@ $(document).ready(function () {
 
         //TODO:Hacer el request por post
 
-        $.get(`/datadog/register2.php?name=${name}&lastname=${lastname}&email=${email}&password=${password}`)
+        $.post(`/datadog/register2.php?`, {
+
+            nombre: name,
+            apellido: lastname,
+            correo: email,
+            contrasena: password
+
+        })
+        // $.get(`/datadog/register2.php?name=${name}&lastname=${lastname}&email=${email}&password=${password}`)
             .then(function (data) {
 
                 $("#modalCompra").modal("hide")
