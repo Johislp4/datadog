@@ -13,7 +13,7 @@ $asunto = "Bienvenido a Data Dog Foundation";
     $verifyEmail = mysqli_query($con, "SELECT * FROM users WHERE EMAIL='$_POST[correo]'");
 
     if ($reg = mysqli_fetch_array($verifyEmail)) {
-
+      
         echo '1';
 
     } else{

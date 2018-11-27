@@ -28,14 +28,18 @@ $(document).ready(function () {
     })
 
     $("#registrar").click(function () {
+
+
         var name = $('#firstName').val()
         var lastname = $('#lastName').val()
         var email = $('#email').val()
         var password = $('#password').val()
 
+        var x = $("#register-form").serialize();
+
         //TODO:Hacer el request por post
 
-        $.post(`/datadog/register2.php?`, {
+        $.post(`/datadog/register2.php`, {
 
             nombre: name,
             apellido: lastname,
@@ -43,7 +47,7 @@ $(document).ready(function () {
             contrasena: password
 
         })
-        // $.get(`/datadog/register2.php?name=${name}&lastname=${lastname}&email=${email}&password=${password}`)
+        // $.post(`/datadog/register2.php?name=${name}&lastname=${lastname}&email=${email}&password=${password}`)
             .then(function (data) {
 
                 $("#modalCompra").modal("hide")
