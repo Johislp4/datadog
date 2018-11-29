@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" singleton="true" server_name="Datadog" start_url="/datadog">
+    <method />
+  </configuration>
+</component>

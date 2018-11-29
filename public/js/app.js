@@ -27,7 +27,12 @@ $(document).ready(function () {
 
     })
 
-    $("#registrar").click(function () {
+
+
+
+
+    //Request ajax por POST
+   /* $("#registrar").click(function () {
 
 
         var name = $('#firstName').val()
@@ -35,9 +40,8 @@ $(document).ready(function () {
         var email = $('#email').val()
         var password = $('#password').val()
 
-        var x = $("#register-form").serialize();
 
-        //TODO:Hacer el request por post
+        //Request por el método Post
 
         $.post(`/datadog/register2.php`, {
 
@@ -47,7 +51,7 @@ $(document).ready(function () {
             contrasena: password
 
         })
-        // $.post(`/datadog/register2.php?name=${name}&lastname=${lastname}&email=${email}&password=${password}`)
+
             .then(function (data) {
 
                 $("#modalCompra").modal("hide")
@@ -65,6 +69,46 @@ $(document).ready(function () {
                 }
 
             })
+
+    })*/
+
+
+
+    $("#formupload").on('submit', function(e) {
+        e.preventDefault();
+
+        var formData = new FormData(this);
+
+        $.ajax({
+            type:'post',
+            url: $(this).attr('action'),
+            data: formData,
+            cache: false,
+            contentType: false,
+            processData: false,
+
+
+
+
+        })
+            .done(function (data) {
+
+                $("#modalCompra").modal("hide")
+
+                if (data == 1) {
+
+                    $.notify("El correo ya existe")
+
+                } else {
+                    if (data == 2) {
+
+                        $.notify("Tu registro ha sido exitoso")
+                        $.notify("Revisa la confirmación del registro en tu correo")
+                    }
+                }
+
+            });
+
 
     })
 
