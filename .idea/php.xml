@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="" />
+    </include_path>
+  </component>
   <component name="PhpProjectServersManager">
     <servers>
       <server host="localhost" id="38fb7aee-5264-447b-8a8a-b5334e43e558" name="Datadog" />

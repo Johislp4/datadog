@@ -9,15 +9,22 @@ if (isset($_POST['InputEmail']) && !empty($_POST['InputEmail']) &&
 
     mysqli_select_db($con, $db) or die ("problemas al conectar la BD");
 
-    $sel = mysqli_query($con, "SELECT EMAIL, PW FROM users WHERE EMAIL='$_POST[InputEmail]'");
+    $sel = mysqli_query($con, "SELECT ID, NAME, EMAIL, PW FROM users WHERE EMAIL='$_POST[InputEmail]'");
 
 
-    $sesion = mysqli_fetch_array($sel);
+    $sesion = mysqli_fetch_assoc($sel);
 
     if ($_POST['InputPassword'] == $sesion['PW']) {
 
-        $_SESSION ['username'] = $_POST['InputEmail'];
-        echo "sesion exitosa";
+        $_SESSION['user'] = [
+          'email'  => $_POST['InputEmail'],
+          'name' =>   $sesion['NAME'],
+          'id' =>  $sesion['ID']
+        ];
+
+       header("location:restringir.php");
+
+
 
     } else {
 
