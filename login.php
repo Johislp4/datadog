@@ -34,9 +34,6 @@ if (isset($_POST['InputEmail']) && !empty($_POST['InputEmail']) &&
 
 
 
-
-
-
 }else {
 
     echo "Debes llenar ambos campos";

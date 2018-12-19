@@ -16,6 +16,7 @@ $verifyEmail = mysqli_query($con, "SELECT * FROM users WHERE EMAIL='$_POST[email
 
 if ($reg = mysqli_fetch_array($verifyEmail)) {
 
+
     echo '1';
 
 

@@ -73,7 +73,7 @@ $(document).ready(function () {
     })*/
 
 
-
+//Registro
     $("#formupload").on('submit', function(e) {
         e.preventDefault();
 
@@ -112,4 +112,36 @@ $(document).ready(function () {
 
     })
 
+
 })
+
+//Actualizar datos
+/*$("#formUpdate").on('submit', function(e) {
+    e.preventDefault();
+
+    var formData = new FormData(this);
+
+    $.ajax({
+        type: 'post',
+        url: $(this).attr('action'),
+        data: formData,
+        cache: false,
+        contentType: false,
+        processData: false,
+
+    }).then(function () {
+
+        $('#modalUpdate').modal('hide')
+    })
+
+});*/
+
+$('.btn-modify').click(function () {
+      var user= $(this).data('user')
+      $('#input-user').val(user)
+      $('#modalUpdate').modal('show')
+})
+
+
+
+
