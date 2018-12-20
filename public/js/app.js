@@ -27,68 +27,60 @@ $(document).ready(function () {
 
     })
 
-
-
-
-
     //Request ajax por POST
-   /* $("#registrar").click(function () {
+    /* $("#registrar").click(function () {
 
 
-        var name = $('#firstName').val()
-        var lastname = $('#lastName').val()
-        var email = $('#email').val()
-        var password = $('#password').val()
+         var name = $('#firstName').val()
+         var lastname = $('#lastName').val()
+         var email = $('#email').val()
+         var password = $('#password').val()
 
 
-        //Request por el método Post
+         //Request por el método Post
 
-        $.post(`/datadog/register2.php`, {
+         $.post(`/datadog/register2.php`, {
 
-            nombre: name,
-            apellido: lastname,
-            correo: email,
-            contrasena: password
+             nombre: name,
+             apellido: lastname,
+             correo: email,
+             contrasena: password
 
-        })
+         })
 
-            .then(function (data) {
+             .then(function (data) {
 
-                $("#modalCompra").modal("hide")
+                 $("#modalCompra").modal("hide")
 
-                if (data == 1) {
+                 if (data == 1) {
 
-                    $.notify("El correo ya existe")
+                     $.notify("El correo ya existe")
 
-                } else {
-                    if (data == 2) {
+                 } else {
+                     if (data == 2) {
 
-                        $.notify("Tu registro ha sido exitoso")
-                        $.notify("Revisa la confirmación del registro en tu correo")
-                    }
-                }
+                         $.notify("Tu registro ha sido exitoso")
+                         $.notify("Revisa la confirmación del registro en tu correo")
+                     }
+                 }
 
-            })
+             })
 
-    })*/
-
+     })*/
 
 //Registro
-    $("#formupload").on('submit', function(e) {
+    $("#formupload").on('submit', function (e) {
         e.preventDefault();
 
         var formData = new FormData(this);
 
         $.ajax({
-            type:'post',
+            type: 'post',
             url: $(this).attr('action'),
             data: formData,
             cache: false,
             contentType: false,
             processData: false,
-
-
-
 
         })
             .done(function (data) {
@@ -109,9 +101,7 @@ $(document).ready(function () {
 
             });
 
-
     })
-
 
 })
 
@@ -137,9 +127,20 @@ $(document).ready(function () {
 });*/
 
 $('.btn-modify').click(function () {
-      var user= $(this).data('user')
-      $('#input-user').val(user)
-      $('#modalUpdate').modal('show')
+    var user = $(this).data('user')
+    var userName = $(this).data('username')
+    var userLast = $(this).data('userlast')
+    var userEmail = $(this).data('useremail')
+    var userPw = $(this).data('userpw')
+
+    $('#input-user').val(user)
+    $('#modalUpdate').modal('show')
+    $('#firstName').val(userName)
+    $('#lastName').val(userLast)
+    $('#email').val(userEmail)
+    $('#password').val(userPw)
+
+
 })
 
 

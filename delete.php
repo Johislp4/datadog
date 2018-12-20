@@ -7,6 +7,6 @@ include("conect.php");
 
     mysqli_query($con, "DELETE FROM users WHERE ID = {$_GET['id']}" );
 
-header("location:restringir.php");
+header("location:usuarios.php");
 
 

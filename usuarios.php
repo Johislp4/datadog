@@ -12,7 +12,7 @@ if (isset($_SESSION['user'])) {
 
     $persona = mysqli_fetch_assoc($person);
 
-    require_once  './vista/restringir.php';
+    require_once  './vista/usuarios.php';
 
 
 

@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc25de7-f930-4900-8154-e3517482de3e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vista/usuarios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conect.php" beforeDir="false" afterPath="$PROJECT_DIR$/conect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register2.php" beforeDir="false" afterPath="$PROJECT_DIR$/register2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restringir.php" beforeDir="false" afterPath="$PROJECT_DIR$/restringir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restringir.php" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vista/restringir.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +44,26 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2124">
-              <caret line="121" column="17" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="17" />
+            <state relative-caret-position="2430">
+              <caret line="138" column="32" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuarios.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vista/usuarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="86" column="8" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -51,71 +71,8 @@
       <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restringir.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restringir.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restringir.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vista/restringir.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/select.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -124,14 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>registe</find>
-      <find>register</find>
-      <find>id=&quot;email&quot;</find>
-      <find>email</find>
-      <find>name</find>
-      <find>id=&quot;name&quot;</find>
-      <find>registrar</find>
-      <find>soy</find>
       <find>ompra</find>
       <find>modal</find>
       <find>registr</find>
@@ -154,6 +103,14 @@
       <find>profile</find>
       <find>formuplo</find>
       <find>formupload</find>
+      <find>actualizar</find>
+      <find>input</find>
+      <find>data-user</find>
+      <find>modalUp</find>
+      <find>input-user</find>
+      <find>modify</find>
+      <find>cerrar</find>
+      <find>restringir.php</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,13 +140,13 @@
         <option value="$PROJECT_DIR$/register2.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/hhhh.html" />
-        <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/usuarios.php" />
-        <option value="$PROJECT_DIR$/vista/restringir.php" />
         <option value="$PROJECT_DIR$/conect.php" />
         <option value="$PROJECT_DIR$/restringir.php" />
-        <option value="$PROJECT_DIR$/update.php" />
         <option value="$PROJECT_DIR$/delete.php" />
+        <option value="$PROJECT_DIR$/vista/restringir.php" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/update.php" />
       </list>
     </option>
   </component>
@@ -228,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,7 +202,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,11 +280,13 @@
       <workItem from="1544669586758" duration="2413000" />
       <workItem from="1545057316301" duration="11539000" />
       <workItem from="1545144760237" duration="18010000" />
+      <workItem from="1545233499742" duration="10176000" />
+      <workItem from="1545315802221" duration="1565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154702000" />
+    <option name="totallyTimeSpent" value="166443000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -339,27 +298,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-438" width="1456" height="876" extended-state="6" />
+    <frame x="1358" y="-258" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7696477" visible="true" weight="0.11031519" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3295129" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32673267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7696477" visible="true" weight="0.113464445" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295129" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.2303523" side_tool="true" weight="0.20630373" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30081302" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30033004" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,11 +376,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="85" />
+      <option name="time" value="97" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Proyecto_Bootstrap/register.php" />
     <entry file="file://$PROJECT_DIR$/Proyecto_Bootstrap/index.html" />
     <entry file="file://$PROJECT_DIR$/Proyecto_Bootstrap/select.php" />
     <entry file="file://$PROJECT_DIR$/Proyecto_Bootstrap/public/js/app.js" />
@@ -478,13 +437,6 @@
     <entry file="file://$PROJECT_DIR$/files/2.1.JPG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/destruir.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2569">
@@ -493,31 +445,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hhhh.html" />
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/usuarios.php" />
+    <entry file="file://$PROJECT_DIR$/select.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="353" column="111" selection-start-line="353" selection-start-column="101" selection-end-line="353" selection-end-column="111" />
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../index.php">
+    <entry file="file://$PROJECT_DIR$/conect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2124">
-          <caret line="121" column="17" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="54">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -530,50 +469,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/usuarios.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="288">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/aria.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="446" column="18" selection-start-line="446" selection-start-column="18" selection-end-line="446" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="138" column="32" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1278">
+          <caret line="19" column="106" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/destruir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restringir.php">
+    <entry file="file://$PROJECT_DIR$/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conect.php">
+    <entry file="file://$PROJECT_DIR$/../index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vista/restringir.php">
+    <entry file="file://$PROJECT_DIR$/vista/usuarios.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/select.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="365">
+          <caret line="86" column="8" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
         </state>
       </provider>
     </entry>

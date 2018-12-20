@@ -3,7 +3,7 @@
 session_start();
 
 if(isset($_SESSION['user'])){
-    header('location:restringir.php');
+    header('location:usuarios.php');
 }
 
 ?>

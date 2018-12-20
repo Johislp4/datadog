@@ -22,7 +22,7 @@ if (isset($_POST['InputEmail']) && !empty($_POST['InputEmail']) &&
           'id' =>  $sesion['ID']
         ];
 
-       header("location:restringir.php");
+       header("location:usuarios.php");
 
 
 
