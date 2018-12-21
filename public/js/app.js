@@ -143,6 +143,16 @@ $('.btn-modify').click(function () {
 
 })
 
+//Enviar Email
+
+$('.btn-Email').click(function () {
+
+    var sendEmail =$(this).data('useremail')
+    $('#modalEmail').modal('show')
+    $('#destinatario').val(sendEmail)
+})
+
+
 
 
 

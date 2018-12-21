@@ -2,7 +2,7 @@
 
 session_start();
 
-if(isset($_SESSION['user'])){
+if (isset($_SESSION['user'])) {
     header('location:usuarios.php');
 }
 
@@ -16,8 +16,13 @@ if(isset($_SESSION['user'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Font awesome-->
+    <script defer src="public/js/all.min.js"
+            integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ"
+            crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    <link rel="stylesheet" href="public/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/index.css">
 
@@ -98,7 +103,9 @@ if(isset($_SESSION['user'])){
                             <a href="#" class="btn btn-outline-light" data-target="#verificar_voluntario"
                                data-toggle="modal">Verificar si soy Voluntario</a>
                             <button type="button" class="btn btn-customize" data-target="#modalCompra"
-                                    data-toggle="modal">Comprar tickets
+                                    data-toggle="modal">
+                                <i class="fas fa-cart-plus"></i>
+                                Comprar tickets
                             </button>
                         </div>
                     </div>
@@ -133,7 +140,9 @@ if(isset($_SESSION['user'])){
                             ciudad de Puebla, México. Luisito actualmente reside en la Ciudad de México, capital del
                             país, con 27 años de edad.</p>
                         <a href="https://youtube.fandom.com/es/wiki/Luisito_Comunica" class="btn btn-primary"
-                           target="_blank">ver más</a>
+                           target="_blank">
+                            <i class="fas fa-hand-point-right"></i>
+                            ver más</a>
                     </div>
                 </div>
             </div>
@@ -150,7 +159,9 @@ if(isset($_SESSION['user'])){
                             coautor de los libros El camino de César, Sé el líder de la manada y Un miembro de la
                             familia, donde se indica cómo entender y tratar algunos problemas caninos.</p>
                         <a href="https://es.wikipedia.org/wiki/C%C3%A9sar_Mill%C3%A1n" target="_blank"
-                           class="btn btn-primary">ver más</a>
+                           class="btn btn-primary">
+                            <i class="fas fa-hand-point-right"></i>
+                            ver más</a>
                     </div>
                 </div>
             </div>
@@ -164,8 +175,9 @@ if(isset($_SESSION['user'])){
                         </div>
                         <p class="card-text">Es un programador y empresario estadounidense, conocido por ser el fundador
                             de Facebook.</p>
-                        <a href="https://es.wikipedia.org/wiki/Mark_Zuckerberg" class="btn btn-primary" target="_blank">ver
-                            más</a>
+                        <a href="https://es.wikipedia.org/wiki/Mark_Zuckerberg" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-hand-point-right"></i>
+                            ver más</a>
                     </div>
                 </div>
             </div>
@@ -200,7 +212,9 @@ if(isset($_SESSION['user'])){
                 </p>
                 <a class="btn btn-outline-warning"
                    href="http://www.parquesnacionales.gov.co/portal/es/ecoturismo/region-caribe/parque-nacional-natural-tayrona/"
-                   target="_blank">Conoce más</a>
+                   target="_blank">
+                    <i class="fas fa-plus"></i>
+                    Conoce más</a>
 
             </div>
 
@@ -308,6 +322,7 @@ if(isset($_SESSION['user'])){
 </footer>
 
 <!--//footer-->
+
 
 <!--modal1-->
 <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -425,11 +440,11 @@ if(isset($_SESSION['user'])){
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+<script src="public/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-<script src="public/js/app.js"></script>
 <script src="public/js/bootstrap-notify.js"></script>
+<script src="public/js/app.js"></script>
 </body>
 </html>
 
